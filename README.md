@@ -8,5 +8,6 @@ npm install
 
 ## Run
 
-npx wdio run ./wdio.conf.ts 
+copy example.env to .env and setup username and password
 
+npx wdio run ./wdio.conf.ts 
