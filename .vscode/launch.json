@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npx wdio run ./wdio.conf.js",
+            "name": "Run npx wdio",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
