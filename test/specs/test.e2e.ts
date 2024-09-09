@@ -9,10 +9,10 @@ describe('My Login application', () => {
         let username : string = process.env.username?process.env.username:''
         let passwd : string = process.env.passwd?process.env.passwd:''
         await LoginPage.login(username, passwd)
-        await expect(SecurePage.flashAlert).toBeExisting()
-        await expect(SecurePage.flashAlert).toHaveText(
+        await expect(SecurePage.kliensTable).toBeExisting()
+        await expect(SecurePage.kliensTable).toHaveText(
             expect.stringContaining('kliens lista'))
-        await expect(SecurePage.flashAlert).toMatchSnapshot('flashAlert')
+        await expect(SecurePage.kliensTable).toMatchSnapshot('kliensTable')
     })
 
     it('Check add and filter subject', async() => {

@@ -1,3 +1,3 @@
 // Snapshot v1
 
-exports[`My Login application > should login with valid credentials > flashAlert 1`] = `"<div class="ui-datatable-header ui-widget-header ui-corner-top">kliens lista</div>"`;
+exports[`My Login application > should login with valid credentials > kliensTable 1`] = `"<div class="ui-datatable-header ui-widget-header ui-corner-top">kliens lista</div>"`;

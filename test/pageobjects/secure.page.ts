@@ -8,7 +8,7 @@ class SecurePage extends Page {
     /**
      * define selectors using getter methods
      */
-    public get flashAlert () {
+    public get kliensTable () {
         return $('.ui-datatable-header');
     }
 }
