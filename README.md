@@ -10,4 +10,6 @@ npm install
 
 copy example.env to .env and setup username and password
 
+mkdir -p ~/tmp/forras-admin-wdio
+export TMPDIR="$HOME/tmp/forras-admin-wdio"
 npx wdio run ./wdio.conf.ts 
