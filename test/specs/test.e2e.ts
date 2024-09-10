@@ -16,7 +16,7 @@ describe('My Login application', () => {
     })
 })
 describe('Manage subject', () => {
-    it('Check add and filter subject', async() => {
+    it('Add, filter, delete subject', async() => {
         await subjectsPage.open()
         await subjectsPage.addSubject("test-subj")
         await subjectsPage.filterSubject("test-subj")
