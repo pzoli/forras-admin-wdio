@@ -14,7 +14,8 @@ describe('My Login application', () => {
             expect.stringContaining('kliens lista'))
         await expect(SecurePage.kliensTable).toMatchSnapshot('kliensTable')
     })
-
+})
+describe('Manage subject', () => {
     it('Check add and filter subject', async() => {
         await subjectsPage.open()
         await subjectsPage.addSubject("test-subj")
